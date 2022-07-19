@@ -1,0 +1,209 @@
+/* body font */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+/*-------------------
+ header section style
+ -------------------- */
+
+.header-main {
+    padding: 60px 140px;
+
+}
+
+.top-section {
+
+    display: flex;
+    justify-content: center;
+    background-color: rgb(32, 1, 44);
+    border-radius: 20px;
+
+}
+
+.heading-area-main {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.heading-area {
+    width: 50%;
+}
+
+.heading-area h1 {
+
+    font-size: 70px;
+    color: white;
+
+}
+
+.heading-area p {
+
+    color: white;
+}
+
+/* 1st button  */
+.button {
+    padding-top: 20px;
+
+}
+
+.watch-live-button {
+
+    padding: 15px 25px;
+    text-decoration: none;
+    background-image: linear-gradient(to right, lightgreen, cyan);
+    border-radius: 10px;
+
+}
+
+/* img area */
+.heading-img-area {
+    width: 50%;
+
+}
+
+.heading-img-area img {
+    width: 100%;
+
+}
+
+
+/* -----------
+main body area
+------------- */
+.main-section {
+
+    padding: 60px 140px;
+    display: flex;
+
+}
+
+.button-main {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(32, 1, 44);
+    width: 312px;
+    height: 312px;
+    border-radius: 10px;
+
+
+
+}
+
+
+
+.small-button {
+
+    width: 200px;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+
+.small-button a {
+
+    color: ;
+    text-decoration: none;
+
+}
+
+/* card area */
+
+.card-main {
+    padding-left: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+}
+
+.card {}
+
+.card-button {
+
+    margin-top: 40px;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.card-icon {
+    display: flex;
+
+}
+
+
+/* footer and icon */
+
+.footer {
+
+    background-color: rgb(32, 1, 44);
+}
+
+.footer-title {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+
+}
+
+
+
+.about-us {
+    text-align: center;
+
+}
+
+.condition {
+
+
+    padding-right: 20px;
+
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+
+/* icon area */
+.footer-icon {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.icon {
+
+    padding-right: 15px;
+    color: white;
+    font-size: 25px;
+}
+
+.icon:hover {
+    color: #787885;
+
+}
