@@ -64,6 +64,7 @@ body {
 
 .watch-live-button {
     text-decoration: none;
+    color: rgb(32, 1, 44);;
 }
 
 .button:hover {
@@ -205,6 +206,13 @@ main body area
     display: flex;
 
 }
+.card{
+    border: 1px solid gray;
+    border-radius: 12px;
+}
+.card-text{
+    padding: 10px;
+}
 
 
 /* footer and icon */
@@ -248,7 +256,6 @@ main body area
 
 /* icon area */
 .footer-icon {
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -269,7 +276,7 @@ main body area
 
 
 
-/* tab area */
+/* tab vertion */
 
 
 .view-button {
@@ -281,9 +288,25 @@ main body area
 .tab-button {
     display: none;
 }
+.tab-button-main{
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.tab-button-section{
+    display: flex;
+}
+.view-button-style{
+    padding: 15px 75px;
+    background-image: linear-gradient(to right, lightgreen, cyan);
+    border-radius: 7px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: rgb(32, 1, 44);;
+}
 
 
-@media only screen and (max-width: 820px) {
+@media only screen and (max-width: 768px) {
     .heading-area h1 {
         font-size: 25px;
         color: white;
@@ -298,6 +321,7 @@ main body area
         margin: 10px 0px;
         padding: 10px 10px;
     }
+
 
     .heading-img-area img {
         width: 100%;
@@ -319,5 +343,64 @@ main body area
         padding-left: 78px;
 
     }
+    .button-main{
+        display: none;
+    }
+    .tab-button-main{
+        display: flex;
+    }
+    .tab-button{
+        display: block;
+    }
 
+}
+
+@media only screen and (max-width: 320px) {
+    .header-main {
+        padding: 30px 20px;
+    }
+    .heading-area{
+        width: 100%;
+        text-align: center;
+    }
+    .heading-img-area img {
+        width: 100%;
+        padding-top: 20px;
+    }
+    .heading-img-area{
+        margin: 0px auto;
+    }
+    .top-section{
+        flex-direction: column;
+    }
+    .button{
+        float: none;
+        width: 50%;
+        margin: 5px auto;
+    }
+    .tab-button-main{
+        display: block;
+    }
+    .tab-button-section{
+        display: block;
+    }
+    .small-button{
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+    .card-section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .card-main{
+        padding-left: 0px;
+        padding: 5px;
+    }
+    .tab-button{
+        display: none;
+    }
+    .condition{
+        display: block;
+        margin-bottom: 10px;
+    }
 }
